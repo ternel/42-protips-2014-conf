@@ -1,3 +1,6 @@
+body {
+    font-size: 200%;
+}
 .caption {
     color: #f7d325;
     text-shadow: 0px 2px 2px #1b1b1b;
@@ -260,4 +263,20 @@ img {
     position: relative;
     top: auto;
     vertical-align: middle;
+}
+
+@keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+@-webkit-keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+.blink {
+  animation: blink 1s step-start 0s infinite;
+  -webkit-animation: blink 1s step-start 0s infinite;
+  color: red;
 }
