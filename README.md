@@ -1,5 +1,6 @@
 # 42 Protips 2014
 
+http://ternel.github.io/42-protips-2014-conf/
 
 ## Generating a PDF
 
